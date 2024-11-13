@@ -1,10 +1,11 @@
 
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="bg-blue-500">
-     tailwind is set up
+    <div>
+     <Home />
     </div>
   );
 }
