@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         lilac: '#c8a2c8',
         aquamarine: '#7fffd4',
-        textDark: '#33333'
+        textDark: '#33333',
+        test: 'blue',
       }
     },
   },

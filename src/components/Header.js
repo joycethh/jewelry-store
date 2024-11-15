@@ -6,15 +6,15 @@ import { UserIcon, ShoppingBagIcon } from '@heroicons/react/24/outline';
 
 export default function Header () {
   return (
-    <div>
-      <header>
-        <h1>Jewelry Store</h1>
-      </header>
-      <div>
-        <span> <UserIcon /></span>
-        <span><ShoppingBagIcon /></span>
-      </div>
-    </div>
+  
+      <header className='fixed top-0 left-0 w-full p-4 md:p-6 flex items-center justify-between bg-lilac hover:bg-transparent duration-300'>
+        <h1 className='text-lg md:text-2xl font-bold mx-auto'>Jewelry Store</h1>
+        <div className='flex space-x-4'>
+        <UserIcon className='h-6 w-6 text-custom-dark' />
+        <ShoppingBagIcon className='h-6 w-6 text-custom-dark'/>
+        </div>
+        </header>
+  
   );
 }
 
