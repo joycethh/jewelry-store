@@ -20,7 +20,7 @@ export default function Home () {
         <FlexBox
           title="Bonding Gifts" 
           description="Give the perfect gifts to show your love." 
-          image="/images/bond2.jpg"
+          image="/images/bond1.jpg"
           reverse ={true} 
         />
 
