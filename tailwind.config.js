@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lilac: '#c8a2c8',
-        aquamarine: '#7fffd4',
-        textDark: '#33333',
-        test: 'blue',
+        'lilac': '#c8a2c8',
+        'aquamarine': '#7fffd4',
+        'textDark': '#4A4A4A',
+        'test': '#89cff0',
       }
     },
   },

@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import FlexBox from "../components/FlexBox";
 import ActionSection from "../components/ActionSection";
 
+
 export default function Home () {
   return (
     <div>
@@ -11,15 +12,15 @@ export default function Home () {
        <Hero />
        <main>
         <FlexBox 
-          title="Timeless Collection" 
+          title="Lengend Collection" 
           description="Discover pieces that ever go out of style." 
-          image="" 
+          image="/images/lengend.jpg" 
           reverse={false} 
         />
         <FlexBox
           title="Bonding Gifts" 
           description="Give the perfect gifts to show your love." 
-          image="" 
+          image="/images/bond2.jpg"
           reverse ={true} 
         />
 

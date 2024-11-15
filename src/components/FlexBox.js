@@ -3,16 +3,15 @@ import Button from './Button';
 
 export default function FlexBox ({title, description, image, reverse}) {
     return(
-        <div>
-            //text 
+        <div className='flex bg-test'>
             <div>
-                <h2>{title}</h2>
-                <p>{description}</p>
+                <h2 className='text-lilac text-2xl font-semibold mb-2'>{title}</h2>
+                <p className='text-textDark mb-4'>{description}</p>
                 <Button label="Discover Now" />
             </div>
-            //image
+           
             <div>
-                <img src={image} alt={title} />
+                <img src={image} alt={title} className='w-full h-auto'/>
             </div>
         </div>
 
