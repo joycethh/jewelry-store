@@ -14,7 +14,7 @@ export default function Hero ({text}) {
         >
             <div className="absolute bottom-12 w-full text-center">
             <h2 className="text-4xl font-bold text-aquamarine text-opacity-60">JEWELRY STORE</h2> 
-            <p className="text-xl mt-2 text-aquamarine text-opacity-70"> Where elegance meet timeless beauty</p>
+            <p className="text-xl mt-2 text-aquamarine text-opacity-70"> Jewelry that tells your story</p>
             </div>
            
         </div>
