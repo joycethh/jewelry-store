@@ -25,7 +25,7 @@ export default function Home () {
           image="/images/bond1.jpg"
           reverse ={true} 
         />
-        <Divider />
+       
 
         <ActionSection />
        </main>

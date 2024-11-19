@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'lilac': '#c8a2c8',
-        'aquamarine': '#7fffd4',
+        'lilac': '#E1BEE7',
+        'aquamarine': '#B3E5FC',
         'textDark': '#4A4A4A',
         'test': '#89cff0',
       }
