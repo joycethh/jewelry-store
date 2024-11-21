@@ -11,6 +11,9 @@ module.exports = {
         'deepBlue': '#164E87',
         'textDark': '#4A4A4A',
         'test': '#89cff0',
+      },
+      fontFamily: {
+        cursive: ['"Dancing Script"', 'cursive'],
       }
     },
   },

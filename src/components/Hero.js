@@ -7,14 +7,13 @@ export default function Hero ({text}) {
                 backgroundImage: "url('/images/hero.jpg')",
                 backgroundSize: 'cover',
                 backgroundPosition:'center',
-                height: '400px',
+                height: '90vh',
                 position: 'relative',
             }}
-            className="flex items-center justify-center text-white"
+            className="flex items-center justify-center"
         >
-            <div className="absolute bottom-12 w-full text-center">
-            <h2 className="text-4xl font-bold text-aquamarine text-opacity-60">JEWELRY STORE</h2> 
-            <p className="text-xl mt-2 text-aquamarine text-opacity-70"> Jewelry that tells your story</p>
+            <div className="absolute w-full text-center mb-10">
+            <h2 className="font-cursive text-bold text-2xl text-aquamarine text-opacity-80"> Jewelry that tells your story</h2>
             </div>
            
         </div>
