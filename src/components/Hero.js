@@ -13,7 +13,7 @@ export default function Hero ({text}) {
             className="flex items-center justify-center"
         >
             <div className="absolute w-full text-center mb-10">
-            <h2 className="font-cursive text-bold text-2xl text-aquamarine text-opacity-80"> Jewelry that tells your story</h2>
+            <h2 className="font-cursive text-bold text-2xl text-white text-opacity-80"> Jewelry that tells your story</h2>
             </div>
            
         </div>
