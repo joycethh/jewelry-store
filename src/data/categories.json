@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "name": "Category",
+      "subcategories": ["Ring", "Necklace", "Earrings", "Pendant", "Bracelet"]
+    },
+    {
+      "name": "Metal",
+      "subcategories": ["Karat Gold", "Pure Gold", "Platinum", "Silver"]
+    },
+    {
+      "name": "Gem",
+      "subcategories": ["Diamond", "Cultivated Diamond", "Pearl", "Gemstone"]
+    }
+  ]
+}
