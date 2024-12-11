@@ -33,12 +33,11 @@ export default function Header () {
         <ShoppingBagIcon className='h-6 w-6 text-custom-dark'/>
         </div>
       </div>
-
-
+     
       {/* navbar */}
-      <div className={`w-full transition-all duration-200 ${isScrolled ? 'bg-white text-textDark' : 'bg-transparent text-white'}`}> 
-      {/* menu */}
-      <nav className="w-full px-5 pb-3">
+      <div className={`w-full transition-all duration-200 ${isScrolled ? 'bg-white text-textDark shadow' : 'bg-transparent text-white'}`}> 
+        {/* menu */}
+        <nav className="w-full px-5 py-3">
         <ul className="flex space-x-10 uppercase tracking-widest">
           {categoriesData.categories.map((category) => {
           //console.log("category", category);
@@ -51,27 +50,31 @@ export default function Header () {
                 >
               <span className="cursor-pointer hover:underline">{category.name}</span>
               
-              
-              {/* drowpdown submenu */}
-              <ul className="absolute top-full left-0 bg-white text-textDark shadow-lg py-4">
-                {dropdown === category.name && category.subcategories.map((subcategory) => {
-                //   console.log("subcategory", subcategory);
+              {/* drowpdown submenu */}             
+                {dropdown === category.name && (           
+                <ul className={`absolute top-full left-0 py-4 z-50 ${isScrolled ? 'bg-white text-textDark w-screen' : 'bg-transparent text-white'}`} >
+                  {category.subcategories.map((subcategory) => {
+                  // console.log("subcategory", subcategory);
                   return (
-                    <li key={subcategory} className="px-6 py-2 hover:bg-gray-100 hover:underline cursor-pointer">
+                    <li key={subcategory} className="py-2  hover:underline cursor-pointer"> 
+                    {/* hover: bg-grey-200 */}
                       <Link to={`/products/jewelry-by-${category.name.toLowerCase()}/${subcategory
                         .toLowerCase()
                         .replace(' ', '-')}`}>{subcategory}</Link>
                     </li>
-                  );
-                })}
-              </ul>
+                    )
+                  })}
+                </ul>
+             
+                )
+              }
             </li>
           );
         })}
       </ul>
-    </nav>
-        </div>
-        </header>
+        </nav>
+      </div>
+      </header>
         
        
      </>
