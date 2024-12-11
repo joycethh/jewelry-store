@@ -9,6 +9,8 @@ function App() {
      <BrowserRouter>
      <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/products/jewelry-by-:category" element={<></>} />
+      <Route path="/products/jewelry-by-:category/:subcategory" element={<></>}/>
      </Routes>
      </BrowserRouter>
   

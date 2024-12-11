@@ -27,7 +27,7 @@ export default function Header () {
       <header className="fixed top-0 left-0 w-full z-50" >
       {/* header with brand */}
       <div className={`w-full h-16 flex items-center justify-between px-6 transistion-all duration-200 ${isScrolled ? 'bg-white text-textDark' : 'bg-transparent text-white'}`}>
-      <h1 className='uppercase tracking-[0.2em] text-3xl md:text-2xl font-bold mx-auto'>Jewelry store</h1>
+      <Link to="/" className='uppercase tracking-[0.2em] text-3xl md:text-2xl font-bold mx-auto'>Jewelry store</Link>
         <div className='flex space-x-4'>
         <UserIcon className='h-6 w-6 text-custom-dark' />
         <ShoppingBagIcon className='h-6 w-6 text-custom-dark'/>
@@ -48,7 +48,7 @@ export default function Header () {
                 onMouseEnter={() =>handleMouseEnter(category.name)}
                 onMouseLeave={handleMouseLeave}
                 >
-              <span className="cursor-pointer hover:underline">{category.name}</span>
+              <Link to={`/products/jewelry-by-${category.name.toLowerCase()}`} className="cursor-pointer hover:underline">{category.name}</Link>
               
               {/* drowpdown submenu */}             
                 {dropdown === category.name && (           
