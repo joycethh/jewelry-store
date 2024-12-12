@@ -1,6 +1,6 @@
-[
 
-    {
+[
+  {
         "id": 1,
         "name": "Eternal Love Diamond Ring",
         "price": 2999,
@@ -20,8 +20,8 @@
         },
         "tags": ["engagement", "classic", "timeless"],
         "categories": ["18k white gold", "diamond"]
-      },
-      {
+  },
+  {
         "id": 2,
         "name": "Elegant Pearl Necklace",
         "price": 1500,
@@ -40,9 +40,129 @@
         },
         "tags": ["classic", "timeless", "pearl"],
         "categories": ["14k Gold", "pearl"]
-      },
-      {
-        "id": 3,
+  },
+  {
+    "id": 3,
+    "name": "Eternal Love Diamond Ring",
+    "price": 2999,
+    "image": "/images/eternal-love-ring.jpg",
+    "description": "A stunning diamond ring with a round cut and brilliant shine, set in 18k white gold.",
+    "color": "white",
+    "shape": "Round",
+    "type": "Ring",
+    "metal": "18k White Gold",
+    "gem": {
+      "type": "Diamond",
+      "color": "H",
+      "clarity": "VS1",
+      "cut": "Round",
+      "carat": 0.7
+    },
+    "tags": ["Engagement", "Timeless", "Gift for Her"],
+    "categories": ["Diamond", "18k Gold"]
+  },
+  {
+    "id": 4,
+    "name": "Elegant Cutivated Diamond Pedant",
+    "price": 1500,
+    "image": "/images/elegant-pearl-necklace.jpg",
+    "description": "A classic pearl necklace set in 14k gold, perfect for any occasion.",
+    "color": "white",
+    "shape": "Round",
+    "type": "Necklace",
+    "metal": "14k Gold",
+    "gem": {
+      "type": "Cultivated Diamond",
+      "color": "E",
+      "clarity": "VVS2",
+      "cut": "Princess",
+      "carat": 1.2
+    },
+    "tags": ["Classic", "Gift for Her", "Anniversary"],
+    "categories": ["Cultivated Diamond", "14k Gold"]
+  },
+  {
+    "id": 5,
+    "name": "Radiant Platinum Bracelet",
+    "price": 2200,
+    "image": "/images/radiant-platinum-bracelet.jpg",
+    "description": "A sleek platinum bracelet with embedded diamonds for a touch of elegance.",
+    "color": "white",
+    "shape": "Radiant",
+    "type": "Bracelet",
+    "metal": "Platinum",
+    "gem": {
+      "type": "Diamond",
+      "color": "F",
+      "clarity": "IF",
+      "cut": "Radiant",
+      "carat": 1.0
+    },
+    "tags": ["Gift for Him", "Timeless", "Luxury"],
+    "categories": ["Diamond", "Platinum"]
+  },
+  {
+    "id": 6,
+    "name": "Heart Pendant Necklace",
+    "price": 1200,
+    "image": "/images/heart-pendant-necklace.jpg",
+    "description": "A romantic heart-shaped pendant with a cultivated diamond centerpiece, set in silver.",
+    "color": "pink",
+    "shape": "Heart",
+    "type": "Pendant",
+    "metal": "Silver",
+    "gem": {
+      "type": "Cultivated Diamond",
+      "color": "G",
+      "clarity": "VS2",
+      "cut": "Heart",
+      "carat": 0.5
+    },
+    "tags": ["Romantic", "Valentine's Day", "Gift for Her"],
+    "categories": ["Cultivated Diamond", "Silver"]
+  },
+  {
+    "id": 7,
+    "name": "Vintage Gemstone Earrings",
+    "price": 900,
+    "image": "/images/vintage-gemstone-earrings.jpg",
+    "description": "Beautiful earrings featuring natural gemstones, set in 18k yellow gold.",
+    "color": "green",
+    "shape": "Oval",
+    "type": "Earrings",
+    "metal": "18k Yellow Gold",
+    "gem": {
+      "type": "Gemstone",
+      "color": "Emerald Green",
+      "clarity": "Transparent",
+      "cut": "Oval",
+      "carat": 1.5
+    },
+    "tags": ["Boho", "Gift for Her", "Classic"],
+    "categories": ["Gemstone", "18k Gold"]
+  },
+  {
+    "id": 8,
+    "name": "Infinity Diamond Ring",
+    "price": 3200,
+    "image": "/images/infinity-diamond-ring.jpg",
+    "description": "A modern infinity-style diamond ring, crafted in 14k rose gold.",
+    "color": "rose",
+    "shape": "Oval",
+    "type": "Ring",
+    "metal": "14k Rose Gold",
+    "gem": {
+      "type": "Diamond",
+      "color": "D",
+      "clarity": "VVS1",
+      "cut": "Oval",
+      "carat": 0.9
+    },
+    "tags": ["Engagement", "Modern", "Gift for Her"],
+    "categories": ["Diamond", "14k Gold"]
+  },
+  {
+        "id": 9,
         "name": "Vintage Ruby Engagement Ring",
         "price": 2200,
         "url": "/images/vintage-ruby-ring.jpg",
@@ -61,9 +181,9 @@
         },
         "tags": ["engagement", "vintage", "classic"],
         "categories": ["18k Yellow Gold", "ruby"]
-      },
-      {
-        "id": 4,
+  },
+  {
+        "id": 10,
         "name": "Sapphire Drop Earrings",
         "price": 1800,
         "url": "/images/sapphire-drop-earrings.jpg",
@@ -82,9 +202,9 @@
         },
         "tags": ["classic", "elegant", "gift"],
         "categories": ["14k White Gold", "sapphire"]
-      },
-      {
-        "id": 5,
+  },
+  {
+        "id": 11,
         "name": "Classic Gold Hoop Earrings",
         "price": 950,
         "url": "/images/gold-hoop-earrings.jpg",
@@ -103,9 +223,9 @@
         },
         "tags": ["classic", "everyday", "gold"],
         "categories": ["14k Yellow Gold"]
-      },
+  },
       {
-        "id": 6,
+        "id": 12,
         "name": "Opal and Diamond Ring",
         "price": 3200,
         "url": "/images/opal-diamond-ring.jpg",
@@ -126,7 +246,7 @@
         "categories": ["Platinum", "opal", "diamond"]
       },
       {
-        "id": 7,
+        "id": 13,
         "name": "Emerald Solitaire Ring",
         "price": 2700,
         "url": "/images/emerald-solitaire-ring.jpg",
@@ -147,7 +267,7 @@
         "categories": ["18k White Gold", "emerald"]
       },
       {
-        "id": 8,
+        "id": 14,
         "name": "Diamond Tennis Bracelet",
         "price": 3500,
         "url": "/images/diamond-tennis-bracelet.jpg",
@@ -168,7 +288,7 @@
         "categories": ["Platinum", "diamond"]
       },
       {
-        "id": 9,
+        "id": 15,
         "name": "Ruby Stud Earrings",
         "price": 1500,
         "url": "/images/ruby-stud-earrings.jpg",
@@ -189,7 +309,7 @@
         "categories": ["14k Yellow Gold", "ruby"]
       },
       {
-        "id": 10,
+        "id": 16,
         "name": "Platinum Diamond Pendant",
         "price": 4500,
         "url": "/images/platinum-diamond-pendant.jpg",
@@ -210,7 +330,7 @@
         "categories": ["Platinum", "diamond"]
       },
       {
-        "id": 11,
+        "id": 17,
         "name": "Sapphire Solitaire Ring",
         "price": 2200,
         "url": "/images/sapphire-solitaire-ring.jpg",
