@@ -49,13 +49,7 @@ export default function Header () {
               <Link 
                 to={`/products/jewelry/${category.name.toLowerCase().replace(/\s+/g, '-')}`} 
                 className="cursor-pointer hover:underline"
-                onClick={(e) =>{
-                  console.group('Route Navigation');
-                  console.log('Category:', category.name);
-                  console.log('Generated Path:', `/products/jewelry/${category.name.toLowerCase().replace(/\s+/g, '-')}`);
-                  console.trace(); // This will show the call stack
-                  console.groupEnd();
-                }}
+                
               >
               {category.name}
               </Link>
