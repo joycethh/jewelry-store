@@ -13,19 +13,19 @@ export default function Home () {
        <Hero />
        <main>
         <FlexBox 
-          title="Lengend Collection" 
-          description="Discover pieces that ever go out of style." 
-          image="/images/lengend.jpg" 
+          title="Engagment" 
+          description="Give the perfect engagement rings to show your love." 
+          image="/images/engagement2.jpg" 
           reverse={false} 
         />
         <Divider title="TEST DIVIDER" />
         <FlexBox
-          title="Bonding Gifts" 
-          description="Give the perfect gifts to show your love." 
-          image="/images/bond1.jpg"
+          title="wedding Bands" 
+          description="Discover pieces that ever go out of style." 
+          image="/images/bands.jpg"
           reverse ={true} 
         />
-       
+       <FlexBox title="Best Selling Earrings" description="Earrings for everyday and up dressing" image="images/earrings1.jpg" reverse={false}/>
 
         <ActionSection />
        </main>
