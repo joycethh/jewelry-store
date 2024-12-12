@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import { UserIcon, ShoppingBagIcon } from '@heroicons/react/24/outline';
-import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 import categoriesData from "../data/categories.json"
 
@@ -8,7 +7,7 @@ export default function Header () {
   const [isScrolled, setIsScrolled] = useState (false)
   const [dropdown, setDropdown] = useState(null);
   const handleMouseEnter = (category) =>{
-   
+  
       return setDropdown(category)
   } 
   const handleMouseLeave = () => setDropdown (null)
@@ -40,7 +39,6 @@ export default function Header () {
         <nav className="w-full px-5 py-3">
         <ul className="flex space-x-10 uppercase tracking-widest">
           {categoriesData.categories.map((category) => {
-          //console.log("category", category);
           return (
             <li 
                 key={category.name} 
@@ -48,8 +46,19 @@ export default function Header () {
                 onMouseEnter={() =>handleMouseEnter(category.name)}
                 onMouseLeave={handleMouseLeave}
                 >
-              <Link to={`/products/jewelry-by-${category.name.toLowerCase()}`} className="cursor-pointer hover:underline">{category.name}</Link>
-              
+              <Link 
+                to={`/products/jewelry-by-${category.name.toLowerCase().replace(/\s+/g, '-')}`} 
+                className="cursor-pointer hover:underline"
+                onClick={(e) =>{
+                  console.group('Route Navigation');
+                  console.log('Category:', category.name);
+                  console.log('Generated Path:', `/products/jewelry-by-${category.name.toLowerCase().replace(/\s+/g, '-')}`);
+                  console.trace(); // This will show the call stack
+                  console.groupEnd();
+                }}
+              >
+              {category.name}
+              </Link>
               {/* drowpdown submenu */}             
                 {dropdown === category.name && (           
                 <ul className={`absolute top-full left-0 py-4 z-50 ${isScrolled ? 'bg-white text-textDark w-screen' : 'bg-transparent text-white'}`} >
@@ -60,7 +69,7 @@ export default function Header () {
                     {/* hover: bg-grey-200 */}
                       <Link to={`/products/jewelry-by-${category.name.toLowerCase()}/${subcategory
                         .toLowerCase()
-                        .replace(' ', '-')}`}>{subcategory}</Link>
+                        .replace(/\s+/g, '-', ' ')}`}>{subcategory}</Link>
                     </li>
                     )
                   })}

@@ -2,15 +2,17 @@
   "categories": [
     {
       "name": "Category",
-      "subcategories": ["Ring", "Necklace", "Earrings", "Pendant", "Bracelet"]
-    },
-    {
-      "name": "Metal",
-      "subcategories": ["Karat Gold", "Pure Gold", "Platinum", "Silver"]
+      "subcategories": ["Ring", "Earrings", "Necklace", "Pendant", "Bracelet"]
     },
     {
       "name": "Gem",
-      "subcategories": ["Diamond", "Cultivated Diamond", "Pearl", "Gemstone"]
+      "subcategories": ["Diamond", "Cultivated Diamond", "Gemstone"]
+    },
+    {
+      "name": "Metal",
+      "subcategories": ["18k Gold", "14k Gold", "Platinum", "Silver"]
     }
+    
   ]
 }
+
