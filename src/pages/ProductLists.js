@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import productData from "../data/products.json";
 
 export default function ProductLists () {
-   const {categoryName} = useParams()
-   console.log ('category name in component', categoryName)
+   const {category} = useParams()
+   console.log ('category name in component', category, [category])
     return ( 
         <div>
             <h1>category title</h1>

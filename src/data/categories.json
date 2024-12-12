@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Category",
+      "name": "Type",
       "subcategories": ["Ring", "Earrings", "Necklace", "Pendant", "Bracelet"]
     },
     {

@@ -47,12 +47,12 @@ export default function Header () {
                 onMouseLeave={handleMouseLeave}
                 >
               <Link 
-                to={`/products/jewelry-by-${category.name.toLowerCase().replace(/\s+/g, '-')}`} 
+                to={`/products/jewelry/${category.name.toLowerCase().replace(/\s+/g, '-')}`} 
                 className="cursor-pointer hover:underline"
                 onClick={(e) =>{
                   console.group('Route Navigation');
                   console.log('Category:', category.name);
-                  console.log('Generated Path:', `/products/jewelry-by-${category.name.toLowerCase().replace(/\s+/g, '-')}`);
+                  console.log('Generated Path:', `/products/jewelry/${category.name.toLowerCase().replace(/\s+/g, '-')}`);
                   console.trace(); // This will show the call stack
                   console.groupEnd();
                 }}
@@ -67,7 +67,7 @@ export default function Header () {
                   return (
                     <li key={subcategory} className="py-2  hover:underline cursor-pointer"> 
                     {/* hover: bg-grey-200 */}
-                      <Link to={`/products/jewelry-by-${category.name.toLowerCase()}/${subcategory
+                      <Link to={`/products/jewelry/${category.name.toLowerCase().replace(/\s+/g, '-')}/${subcategory
                         .toLowerCase()
                         .replace(/\s+/g, '-', ' ')}`}>{subcategory}</Link>
                     </li>
