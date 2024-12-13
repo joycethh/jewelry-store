@@ -1,76 +1,34 @@
-
 [
   {
-        "id": 1,
-        "name": "Eternal Love Diamond Ring",
-        "price": 2999,
-        "url": "/images/eternal-love-ring.jpg",
-        "description": "A stunning diamond ring with a round cut and brilliant shine, set in 18k white gold.",
-        "image": "/images/eternal-love-ring.jpg",
-        "color": "white",
-        "shape": "Emerald",
-        "type": "ring",
-        "metal": "18k White Gold",
-        "gem": {
-          "type": "diamond",
-          "color": "H",
-          "clarity": "VS1",
-          "cut": "Emerald",
-          "carat": 0.7
-        },
-        "tags": ["engagement", "classic", "timeless"],
-        "categories": ["18k white gold", "diamond"]
-  },
-  {
-        "id": 2,
-        "name": "Elegant Pearl Necklace",
-        "price": 1500,
-        "url": "/images/elegant-pearl-necklace.jpg",
-        "description": "A beautiful pearl necklace, elegant and timeless.",
-        "image": "/images/elegant-pearl-necklace.jpg",
-        "color": "white",
-        "shape": "Round",
-        "type": "necklace",
-        "metal": "14k Gold",
-        "gem": {
-          "type": "pearl",
-          "color": "White",
-          "lustre": "High",
-          "size": "10mm"
-        },
-        "tags": ["classic", "timeless", "pearl"],
-        "categories": ["14k Gold", "pearl"]
-  },
-  {
-    "id": 3,
+    "id": 1,
     "name": "Eternal Love Diamond Ring",
     "price": 2999,
-    "image": "/images/eternal-love-ring.jpg",
+    "url": "/images/eternal-love-ring.jpg",
     "description": "A stunning diamond ring with a round cut and brilliant shine, set in 18k white gold.",
+    "image": "/images/eternal-love-ring.jpg",
     "color": "white",
-    "shape": "Round",
-    "type": "Ring",
-    "metal": "18k White Gold",
     "gem": {
       "type": "Diamond",
       "color": "H",
       "clarity": "VS1",
-      "cut": "Round",
+      "cut": "Emerald",
       "carat": 0.7
     },
-    "tags": ["Engagement", "Timeless", "Gift for Her"],
-    "categories": ["Diamond", "18k Gold"]
+    "tags": ["engagement", "classic", "timeless"],
+    "categories": {
+      "type": "Ring",
+      "gem": "Diamond",
+      "metal": "18k White Gold"
+    }
   },
   {
-    "id": 4,
-    "name": "Elegant Cutivated Diamond Pedant",
+    "id": 2,
+    "name": "Elegant Cultivated Diamond Necklace",
     "price": 1500,
+    "url": "/images/cultivated-diamond-necklace.jpg",
+    "description": "A beautiful diamond necklace, elegant and timeless.",
     "image": "/images/elegant-pearl-necklace.jpg",
-    "description": "A classic pearl necklace set in 14k gold, perfect for any occasion.",
     "color": "white",
-    "shape": "Round",
-    "type": "Necklace",
-    "metal": "14k Gold",
     "gem": {
       "type": "Cultivated Diamond",
       "color": "E",
@@ -78,59 +36,21 @@
       "cut": "Princess",
       "carat": 1.2
     },
-    "tags": ["Classic", "Gift for Her", "Anniversary"],
-    "categories": ["Cultivated Diamond", "14k Gold"]
+    "tags": ["classic", "gift for her", "anniversary"],
+    "categories": {
+      "type": "Necklace",
+      "gem": "Cultivated Diamond",
+      "metal": "18k Yellow Gold"
+    }
   },
   {
-    "id": 5,
-    "name": "Radiant Platinum Bracelet",
-    "price": 2200,
-    "image": "/images/radiant-platinum-bracelet.jpg",
-    "description": "A sleek platinum bracelet with embedded diamonds for a touch of elegance.",
-    "color": "white",
-    "shape": "Radiant",
-    "type": "Bracelet",
-    "metal": "Platinum",
-    "gem": {
-      "type": "Diamond",
-      "color": "F",
-      "clarity": "IF",
-      "cut": "Radiant",
-      "carat": 1.0
-    },
-    "tags": ["Gift for Him", "Timeless", "Luxury"],
-    "categories": ["Diamond", "Platinum"]
-  },
-  {
-    "id": 6,
-    "name": "Heart Pendant Necklace",
-    "price": 1200,
-    "image": "/images/heart-pendant-necklace.jpg",
-    "description": "A romantic heart-shaped pendant with a cultivated diamond centerpiece, set in silver.",
-    "color": "pink",
-    "shape": "Heart",
-    "type": "Pendant",
-    "metal": "Silver",
-    "gem": {
-      "type": "Cultivated Diamond",
-      "color": "G",
-      "clarity": "VS2",
-      "cut": "Heart",
-      "carat": 0.5
-    },
-    "tags": ["Romantic", "Valentine's Day", "Gift for Her"],
-    "categories": ["Cultivated Diamond", "Silver"]
-  },
-  {
-    "id": 7,
+    "id": 3,
     "name": "Vintage Gemstone Earrings",
-    "price": 900,
+    "price": 950,
+    "url": "/images/vintage-gemstone-earrings.jpg",
+    "description": "Stunning emerald green gemstone earrings, perfect for any occasion.",
     "image": "/images/vintage-gemstone-earrings.jpg",
-    "description": "Beautiful earrings featuring natural gemstones, set in 18k yellow gold.",
     "color": "green",
-    "shape": "Oval",
-    "type": "Earrings",
-    "metal": "18k Yellow Gold",
     "gem": {
       "type": "Gemstone",
       "color": "Emerald Green",
@@ -138,19 +58,21 @@
       "cut": "Oval",
       "carat": 1.5
     },
-    "tags": ["Boho", "Gift for Her", "Classic"],
-    "categories": ["Gemstone", "18k Gold"]
+    "tags": ["boho", "gift for her", "classic"],
+    "categories": {
+      "type": "Earrings",
+      "gem": "Gemstone",
+      "metal": "18k Yellow Gold"
+    }
   },
   {
-    "id": 8,
+    "id": 4,
     "name": "Infinity Diamond Ring",
     "price": 3200,
-    "image": "/images/infinity-diamond-ring.jpg",
+    "url": "/images/infinity-diamond-ring.jpg",
     "description": "A modern infinity-style diamond ring, crafted in 14k rose gold.",
+    "image": "/images/infinity-diamond-ring.jpg",
     "color": "rose",
-    "shape": "Oval",
-    "type": "Ring",
-    "metal": "14k Rose Gold",
     "gem": {
       "type": "Diamond",
       "color": "D",
@@ -158,199 +80,143 @@
       "cut": "Oval",
       "carat": 0.9
     },
-    "tags": ["Engagement", "Modern", "Gift for Her"],
-    "categories": ["Diamond", "14k Gold"]
+    "tags": ["engagement", "modern", "gift for her"],
+    "categories": {
+      "type": "Ring",
+      "gem": "Diamond",
+      "metal": "14k Rose Gold"
+    }
   },
   {
-        "id": 9,
-        "name": "Vintage Ruby Engagement Ring",
-        "price": 2200,
-        "url": "/images/vintage-ruby-ring.jpg",
-        "description": "A vintage-inspired ruby engagement ring with intricate designs, set in 18k yellow gold.",
-        "image": "/images/vintage-ruby-ring.jpg",
-        "color": "red",
-        "shape": "Round",
-        "type": "ring",
-        "metal": "18k Yellow Gold",
-        "gem": {
-          "type": "ruby",
-          "color": "Red",
-          "clarity": "VS2",
-          "cut": "Round",
-          "carat": 1.2
-        },
-        "tags": ["engagement", "vintage", "classic"],
-        "categories": ["18k Yellow Gold", "ruby"]
+    "id": 5,
+    "name": "Radiant Platinum Bracelet",
+    "price": 2200,
+    "url": "/images/radiant-platinum-bracelet.jpg",
+    "description": "A sleek platinum bracelet with embedded diamonds for a touch of elegance.",
+    "image": "/images/radiant-platinum-bracelet.jpg",
+    "color": "white",
+    "gem": {
+      "type": "Diamond",
+      "color": "F",
+      "clarity": "IF",
+      "cut": "Radiant",
+      "carat": 1.0
+    },
+    "tags": ["gift for him", "timeless", "luxury"],
+    "categories": {
+      "type": "Bracelet",
+      "gem": "Diamond",
+      "metal": "Platinum"
+    }
   },
   {
-        "id": 10,
-        "name": "Sapphire Drop Earrings",
-        "price": 1800,
-        "url": "/images/sapphire-drop-earrings.jpg",
-        "description": "Elegant sapphire earrings with a teardrop shape, set in 14k white gold.",
-        "image": "/images/sapphire-drop-earrings.jpg",
-        "color": "blue",
-        "shape": "Teardrop",
-        "type": "earrings",
-        "metal": "14k White Gold",
-        "gem": {
-          "type": "sapphire",
-          "color": "Blue",
-          "clarity": "VVS1",
-          "cut": "Teardrop",
-          "carat": 1.0
-        },
-        "tags": ["classic", "elegant", "gift"],
-        "categories": ["14k White Gold", "sapphire"]
+    "id": 6,
+    "name": "Timeless Diamond Pendant",
+    "price": 1800,
+    "url": "/images/timeless-diamond-pendant.jpg",
+    "description": "A round-cut diamond pendant, set in 18k white gold.",
+    "image": "/images/timeless-diamond-pendant.jpg",
+    "color": "white",
+    "gem": {
+      "type": "Diamond",
+      "color": "G",
+      "clarity": "VS2",
+      "cut": "Round",
+      "carat": 0.8
+    },
+    "tags": ["timeless", "minimalist", "classic"],
+    "categories": {
+      "type": "Pendant",
+      "gem": "Diamond",
+      "metal": "18k White Gold"
+    }
   },
   {
-        "id": 11,
-        "name": "Classic Gold Hoop Earrings",
-        "price": 950,
-        "url": "/images/gold-hoop-earrings.jpg",
-        "description": "Simple yet classic gold hoop earrings in 14k yellow gold.",
-        "image": "/images/gold-hoop-earrings.jpg",
-        "color": "yellow",
-        "shape": "Hoop",
-        "type": "earrings",
-        "metal": "14k Yellow Gold",
-        "gem": {
-          "type": "none",
-          "color": "Gold",
-          "clarity": "N/A",
-          "cut": "N/A",
-          "carat": "N/A"
-        },
-        "tags": ["classic", "everyday", "gold"],
-        "categories": ["14k Yellow Gold"]
+    "id": 7,
+    "name": "Romantic Cultivated Diamond Earrings",
+    "price": 1400,
+    "url": "/images/romantic-cultivated-diamond-earrings.jpg",
+    "description": "Heart-shaped cultivated diamond earrings in 14k rose gold.",
+    "image": "/images/romantic-cultivated-diamond-earrings.jpg",
+    "color": "pink",
+    "gem": {
+      "type": "Cultivated Diamond",
+      "color": "F",
+      "clarity": "VS1",
+      "cut": "Heart",
+      "carat": 0.6
+    },
+    "tags": ["romantic", "valentine's day", "gift for her"],
+    "categories": {
+      "type": "Earrings",
+      "gem": "Cultivated Diamond",
+      "metal": "14k Rose Gold"
+    }
   },
-      {
-        "id": 12,
-        "name": "Opal and Diamond Ring",
-        "price": 3200,
-        "url": "/images/opal-diamond-ring.jpg",
-        "description": "A mesmerizing opal ring with diamond accents, set in platinum.",
-        "image": "/images/opal-diamond-ring.jpg",
-        "color": "multicolor",
-        "shape": "Oval",
-        "type": "ring",
-        "metal": "Platinum",
-        "gem": {
-          "type": "opal",
-          "color": "White with multicolor",
-          "clarity": "N/A",
-          "cut": "Oval",
-          "carat": 1.0
-        },
-        "tags": ["classic", "unique", "opulent"],
-        "categories": ["Platinum", "opal", "diamond"]
-      },
-      {
-        "id": 13,
-        "name": "Emerald Solitaire Ring",
-        "price": 2700,
-        "url": "/images/emerald-solitaire-ring.jpg",
-        "description": "A solitaire emerald ring, set in 18k white gold.",
-        "image": "/images/emerald-solitaire-ring.jpg",
-        "color": "green",
-        "shape": "Emerald",
-        "type": "ring",
-        "metal": "18k White Gold",
-        "gem": {
-          "type": "emerald",
-          "color": "Green",
-          "clarity": "VS1",
-          "cut": "Emerald",
-          "carat": 1.0
-        },
-        "tags": ["classic", "engagement", "elegant"],
-        "categories": ["18k White Gold", "emerald"]
-      },
-      {
-        "id": 14,
-        "name": "Diamond Tennis Bracelet",
-        "price": 3500,
-        "url": "/images/diamond-tennis-bracelet.jpg",
-        "description": "A luxurious diamond tennis bracelet, set in platinum.",
-        "image": "/images/diamond-tennis-bracelet.jpg",
-        "color": "white",
-        "shape": "Round",
-        "type": "bracelet",
-        "metal": "Platinum",
-        "gem": {
-          "type": "diamond",
-          "color": "D",
-          "clarity": "VVS1",
-          "cut": "Round",
-          "carat": 5.0
-        },
-        "tags": ["luxury", "elegant", "classic"],
-        "categories": ["Platinum", "diamond"]
-      },
-      {
-        "id": 15,
-        "name": "Ruby Stud Earrings",
-        "price": 1500,
-        "url": "/images/ruby-stud-earrings.jpg",
-        "description": "Classic ruby stud earrings in 14k yellow gold.",
-        "image": "/images/ruby-stud-earrings.jpg",
-        "color": "red",
-        "shape": "Round",
-        "type": "earrings",
-        "metal": "14k Yellow Gold",
-        "gem": {
-          "type": "ruby",
-          "color": "Red",
-          "clarity": "VS2",
-          "cut": "Round",
-          "carat": 0.5
-        },
-        "tags": ["classic", "luxury", "gift"],
-        "categories": ["14k Yellow Gold", "ruby"]
-      },
-      {
-        "id": 16,
-        "name": "Platinum Diamond Pendant",
-        "price": 4500,
-        "url": "/images/platinum-diamond-pendant.jpg",
-        "description": "A stunning diamond pendant, set in platinum.",
-        "image": "/images/platinum-diamond-pendant.jpg",
-        "color": "white",
-        "shape": "Round",
-        "type": "necklace",
-        "metal": "Platinum",
-        "gem": {
-          "type": "diamond",
-          "color": "G",
-          "clarity": "VS1",
-          "cut": "Round",
-          "carat": 1.0
-        },
-        "tags": ["luxury", "elegant", "gift"],
-        "categories": ["Platinum", "diamond"]
-      },
-      {
-        "id": 17,
-        "name": "Sapphire Solitaire Ring",
-        "price": 2200,
-        "url": "/images/sapphire-solitaire-ring.jpg",
-        "description": "A stunning sapphire solitaire ring, set in 18k white gold.",
-        "image": "/images/sapphire-solitaire-ring.jpg",
-        "color": "blue",
-        "shape": "Round",
-        "type": "ring",
-        "metal": "18k White Gold",
-        "gem": {
-          "type": "sapphire",
-          "color": "Blue",
-          "clarity": "VVS1",
-          "cut": "Round",
-          "carat": 1.0
-        },
-        "tags": ["classic", "engagement", "elegant"],
-        "categories": ["18k White Gold", "sapphire"]
-      }
-  
-    
-  
+  {
+    "id": 8,
+    "name": "Luxury Gemstone Bracelet",
+    "price": 1700,
+    "url": "/images/luxury-gemstone-bracelet.jpg",
+    "description": "A stunning bracelet with natural sapphire gemstones, set in platinum.",
+    "image": "/images/luxury-gemstone-bracelet.jpg",
+    "color": "blue",
+    "gem": {
+      "type": "Gemstone",
+      "color": "Sapphire Blue",
+      "clarity": "Transparent",
+      "cut": "Cushion",
+      "carat": 2.0
+    },
+    "tags": ["luxury", "gift for her", "timeless"],
+    "categories": {
+      "type": "Bracelet",
+      "gem": "Gemstone",
+      "metal": "Platinum"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Classic Diamond Necklace",
+    "price": 2800,
+    "url": "/images/classic-diamond-necklace.jpg",
+    "description": "A radiant diamond necklace, perfect for formal events.",
+    "image": "/images/classic-diamond-necklace.jpg",
+    "color": "white",
+    "gem": {
+      "type": "Diamond",
+      "color": "G",
+      "clarity": "VVS2",
+      "cut": "Princess",
+      "carat": 1.5
+    },
+    "tags": ["formal", "gift for her", "luxury"],
+    "categories": {
+      "type": "Necklace",
+      "gem": "Diamond",
+      "metal": "18k Yellow Gold"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Elegant Gemstone Ring",
+    "price": 2300,
+    "url": "/images/elegant-gemstone-ring.jpg",
+    "description": "A striking ruby gemstone ring, crafted in 14k white gold.",
+    "image": "/images/elegant-gemstone-ring.jpg",
+    "color": "red",
+    "gem": {
+      "type": "Gemstone",
+      "color": "Ruby Red",
+      "clarity": "Transparent",
+      "cut": "Round",
+      "carat": 1.8
+    },
+    "tags": ["engagement", "luxury", "timeless"],
+    "categories": {
+      "type": "Ring",
+      "gem": "Gemstone",
+      "metal": "14k White Gold"
+    }
+  }
 ]
